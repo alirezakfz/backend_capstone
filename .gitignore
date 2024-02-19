@@ -1,0 +1,52 @@
+# Django related
+# Ignore generated files
+**/__pycache__/*
+*.pyc
+.coverage
+# Ignore test data
+**/tests/fixtures/*
+# Ignore media and static files (manage yourself)
+#media/*
+#static/*
+
+# React related
+# Ignore node_modules (npm/yarn installation)
+node_modules/
+# Ignore build or production output
+build/
+dist/
+webpack.config.js
+
+# IDE preferences
+# Ignore VS Code settings
+.vscode/
+# Ignore PyCharm settings
+.idea/
+
+# Local development and other
+# Ignore virtual environment or environment specific files
+venv/
+.env
+.env.local
+.env.prod
+# Add project-specific configurations or secrets to a .gitignore_global file
+.gitignore_global
+
+# Ignore temporary files
+*.log
+#tmp/
+local_settings.py
+# Include any other temporary or generated files specific to your project
+
+# Patterns are important to ignore all related files
+# Example: ignore all files ending with .test.js
+*.test.js
+
+# Exclude files if needed
+#!README.md
+#!LICENSE
+#!requirements.txt
+#!package.json
+#!manage.py
+/Coursera Plus/Blockchain Specialization bay Bufaallo/04_Course_BlockChainPlatforms/Composer-Demo-New.tar
+/Coursera Plus/Blockchain Specialization bay Bufaallo/04_Course_BlockChainPlatforms/Composer-Demo-New/
